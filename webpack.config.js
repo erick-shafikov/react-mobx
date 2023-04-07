@@ -4,9 +4,9 @@ let MiniCssExtractPlugin = require('mini-css-extract-plugin');
 let conf = {
 	entry: './src/main.js',
 	output: {
-		path: path.resolve(__dirname, './dist'),
+		path: path.resolve(__dirname, './build'),
 		filename: 'main.js',
-		publicPath: '/dist/'
+		publicPath: '/build/'
 	},
 	devServer: {
 		static: {
